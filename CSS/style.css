@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 98%;
+    margin: auto;
+}
+
 /*HEADER*/
 .contenitore-logo{
     background-color: #4ea0ff;
@@ -14,4 +19,38 @@
 .logo{
     height: 100px;
     margin-top: 50px;
+}
+
+/*MAIN*/
+h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.crediti{
+    color: #808080;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#autore{
+ color: #20a9e5;
+}
+
+.data{
+    color: #808080;
+    margin-bottom: 30px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.importante{
+    background-color: #ffff00;
+}
+
+.list{
+    margin-left: 15px;
 }
