@@ -1,4 +1,3 @@
-/*COMMON*/
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +29,6 @@ h1{
 .crediti{
     color: #808080;
     font-size: 25px;
-    margin-top: 10px;
 }
 
 #autore{
@@ -43,8 +41,8 @@ h1{
 }
 
 p{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .importante{
@@ -53,4 +51,61 @@ p{
 
 .list{
     margin-left: 15px;
+}
+
+
+/*Tabella*/
+th{
+    text-align: left;
+}
+
+.colonna-larga{
+    width: 50%;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 30px;
+}
+
+thead{
+    color: #ffffff;
+    background-color: #20a9e5;
+}
+
+td{
+    height: 50px;
+}
+
+.riga-a{
+    background-color: #b1e5f2;
+}
+
+.riga-b{
+    background-color: #ffffff;
+}
+
+.anteprima{
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.titolo-anteprima{
+    color: #ffffff;
+    padding: 10px;
+}
+
+#anteprima-1{
+    background-image: url(../CSS/img/monitor.jpg);
+}
+
+#anteprima-2{
+    background-image: url(../CSS/img/graph.jpg);
+}
+
+.color-grey{
+    color: #808080;
 }
