@@ -1,0 +1,17 @@
+/*COMMON*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.contenitore-logo{
+    background-color: #4ea0ff;
+    background-image: url(../CSS/img/pattern.png);
+}
+
+.logo{
+    height: 100px;
+    margin-top: 50px;
+}
